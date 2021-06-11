@@ -10,3 +10,8 @@ for (var tableRow = 1; tableRow <= numberOfTables; tableRow++) {
     }
     console.log(' ');
 }
+
+//Arrays
+var books = ['Book of life', 'Million mind set', 'Think and Grow Rich'];
+console.log(books.push());
+console.log(books);
