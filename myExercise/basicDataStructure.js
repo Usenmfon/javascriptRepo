@@ -1,18 +1,18 @@
-function reverseString(str) {
-    let start = str.length
-    let reverse = '';
-    for (let i = start - 1; i >= 0; i--) {
-        reverse += str[i];
+function reverseThisString(inputString) {
+    let stringLength = inputString.length
+    let reversedString = '';
+    for (let i = stringLength - 1; i >= 0; i--) {
+        reversedString += inputString[i];
     }
-    return reverse;
+    return reversedString;
 }
-console.log(reverseString("hello"));
+console.log(reverseThisString("hello"));
 
-function reversal(str) {
-    return str.split('').reverse().join('');
+function reverseThisString(inputString) {
+    return inputString.split('').reverse().join('');
 }
 
-console.log(reversal("fun"));
+console.log(reverseThisString("fantastic"));
 //var result = reverseString("hello");
 //console.log(result);
 
@@ -30,13 +30,13 @@ console.log(reversal("fun"));
 // console.log(result);
 
 
-var arrayA = 'hello Universe of the planetary bodies';
-var splitArrayA = arrayA.split(" ");
-let maxLength = 0;
-for (let i = 0; i < splitArrayA.length; i++) {
+// var arrayA = 'hello Universe of the planetary bodies';
+// var splitArrayA = arrayA.split(" ");
+// let maxLength = 0;
+// for (let i = 0; i < splitArrayA.length; i++) {
 
-    if (splitArrayA[i].length > maxLength) {
-        maxLength = splitArrayA[i].length;
-    }
-}
-console.log(maxLength);
+//     if (splitArrayA[i].length > maxLength) {
+//         maxLength = splitArrayA[i].length;
+//     }
+// }
+// console.log(maxLength);
