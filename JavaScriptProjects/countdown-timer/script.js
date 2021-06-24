@@ -29,3 +29,5 @@ function formatTime(time) {
 //initial call
 countdown();
 setInterval(countdown, 1000);
+
+var el = "Hello";
