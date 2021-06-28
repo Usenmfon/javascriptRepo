@@ -1,17 +1,14 @@
-// console.log(__dirname)
-// console.log('My name is Usenmfon');
-// //console.log(process);
-// // console.log(module);
-// // console.log(require);
+// const path = require('path')
 
-// // setInterval(() => {
-// //     console.log('hello world')
-// // }, 1000)
-const names = require('./names')
-const sayHi = require('./utils')
-const data = require('./alternative-flavor')
-    // console.log(data);
-require('./mind-grenade')
-    // sayHi('susan')
-    // sayHi(names.john)
-    // sayHi(names.peter)
+// console.log(path.sep)
+
+function myName() {
+    console.log("Usenmfon")
+}
+
+myName();
+
+const myAge = () => {
+    console.log('24')
+}
+myAge()
