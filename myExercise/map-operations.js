@@ -42,15 +42,61 @@
 // }
 // systemPrint.writeline("Hello Usenmfon")
 
-function findTheNumber(arr, func) {
-    let num = 0;
+// function findTheNumber(arr, func) {
+//     let num = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         num = arr[i];
+//         if (func(num)) {
+//             return num
+//         }
+//     }
+//     return undefinded
+// }
+
+// console.log(findTheNumber([1, 2, 3, 4, 5], num => num % 2 === 0))
+
+
+// function findMax(maxNumber) {
+//     if (maxNumber > 2 || maxNumber == null) {
+//         console.log(`The heighest number is: ${maxNumber}`);
+//     }
+// }
+
+// findMax(Math.max(4, 31, 6))
+
+
+
+
+// function bouncer(arr) {
+//     let arraylength = arr.length;
+//     let pureItems = [];
+//     for (var item = 0; item < arraylength; item++) {
+
+//         if (!!(arr[item]) == false) {
+//             arr.splice(arr.indexOf(arr[item]), 1)
+//         } else {
+//             pureItems.push(arr[item])
+//         }
+//     }
+//     return pureItems;
+// }
+
+// console.log(bouncer([0, null, undefined, false, "", NaN, "ate", 7]))
+
+// function bouncer(arr) {
+//     return arr.filter(Boolean)
+// }
+
+// console.log(bouncer([0, null, undefined, false, "", NaN, "ate", 7]))
+
+function belongWhere(arr, num) {
+
     for (let i = 0; i < arr.length; i++) {
-        num = arr[i];
-        if (func(num)) {
-            return num
+        if (arr[i] < num && arr[i] >= num) {
+            return arr.indexOf(arr[i])
         }
     }
-    return undefinded
 }
 
-console.log(findTheNumber([1, 2, 3, 4, 5], num => num % 2 === 0))
+
+console.log(belongWhere([10, 20, 30, 40, 50], 35))
