@@ -44,3 +44,16 @@ console.log([1, 2, 3].shift())
 console.log([1, 2, 3].unshift(0)) //[0,1,2,3]
     //The use of every
 console.log([1, 2, 3].every(x => x < 5))
+
+/*
+    Working with REST operator and SPREAD operator
+    on array
+*/
+
+function collectArray(...args) {
+    console.log(args.map(x => x * 3))
+}
+
+collectArray(1, 4, 5, 6)
+let newR = [3, 4, 5]
+console.log([1, 2, ...newR])
