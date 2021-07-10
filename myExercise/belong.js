@@ -13,18 +13,18 @@
 // }
 // console.log(placeIn)
 
-function getIndexToIns(arr, num) {
-    arr.sort();
-    let placeIn = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] < num) {
-            placeIn = arr.indexOf(arr[i]) + 1;
-        }
-    }
-    return placeIn;
-}
+// function getIndexToIns(arr, num) {
+//     arr.sort();
+//     let placeIn = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] < num) {
+//             placeIn = arr.indexOf(arr[i]) + 1;
+//         }
+//     }
+//     return placeIn;
+// }
 
-console.log(getIndexToIns([40, 60], 50));
+// console.log(getIndexToIns([40, 60], 50));
 
 // function fizzBuzz(count) {
 //     for (let i = 1; i <= count; i++) {
@@ -35,3 +35,19 @@ console.log(getIndexToIns([40, 60], 50));
 //     }
 // }
 // fizzBuzz(50)
+
+function findSolution(target) {
+    function find(current, history) {
+        if (current == target) {
+            return history;
+        } else if (current > target) {
+            return null;
+        } else {
+            return find(current + 5, `(${history} + 5)`) || find(current * 3, `(${history} * 3)`)
+        }
+    }
+    return find(1, "1");
+}
+
+
+console.log(findSolution(24));
