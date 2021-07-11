@@ -82,10 +82,14 @@ td.bottom {
     box-shadow: -10px -5px 10px #918b8b;
 }
 
+button {
+    width: 200px;
+}
+
 button a {
     margin: 20px;
     text-decoration: none;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 a:hover {
