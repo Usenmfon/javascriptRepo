@@ -1,0 +1,54 @@
+/* div {
+    float: left;
+    
+    width: 300px;
+    height: 100px;
+    margin: 4px;
+    color: #fff;
+    background: -webkit-repeating-linear-gradient(100deg, blue, red, grey, brown);
+}
+
+div.first {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(top left, green, yellow, blue);
+}
+
+div.second {
+    height: 150px;
+    width: 200px;
+    color: #fff;
+    background: -webkit-radial-gradient(circle, yellow 5%, blue 60%);
+} */
+
+div.first {
+    height: 500px;
+    width: 500px;
+    border: 1px solid #000;
+    background: url("nubelson-fernandes--Xqckh_XVU4-unsplash.jpg") no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.second {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightblue;
+    background-clip: padding-box;
+}
+
+.third {
+    border: 2px dotted black;
+    padding: 20px;
+    background: lightblue;
+    background-clip: content-box;
+}
+
+.bg-image {
+    width: 500;
+    height: 500px;
+    background-size: cover;
+    background-image: url(nubelson-fernandes--Xqckh_XVU4-unsplash.jpg), url(C.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+}

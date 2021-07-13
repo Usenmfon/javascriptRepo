@@ -1,4 +1,4 @@
-/* p {
+p {
     display: block;
     position: static;
     top: 30px;
@@ -8,7 +8,12 @@
 
 .fixed {
     position: fixed;
-} */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
 p {
     width: 350px;
@@ -33,5 +38,61 @@ img {
 }
 
 #img2 {
-    clear: both;
+    clear: left;
+}
+
+.circle {
+    border: 1px solid none;
+    width: 300px;
+    height: 300px;
+    /* clear: both; */
+    position: absolute;
+    border-radius: 50%;
+    background-color: khaki;
+}
+
+#eye1 {
+    border: 1px solid none;
+    width: 30px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: 50px;
+    bottom: -50px;
+    /* position: absolute; */
+    background-color: white;
+}
+
+#eye2 {
+    border: 1px solid none;
+    width: 30px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    left: 220px;
+    bottom: -12px;
+    background-color: white;
+}
+
+#nose {
+    border: 1px solid none;
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 125px;
+    bottom: -40px;
+    background-color: white;
+}
+
+#mouth {
+    border: 1px solid none;
+    width: 100px;
+    height: 20px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    position: relative;
+    left: 100px;
+    bottom: -100px;
+    background-color: white;
 }
