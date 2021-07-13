@@ -1,0 +1,72 @@
+.trans1 {
+    width: 50px;
+    height: 50px;
+    background: #32CD32;
+    transition: width 3s;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+.trans1:hover {
+    width: 250px;
+}
+
+.rotate {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: lightblue;
+    transform: rotate(-90deg);
+}
+
+.empty-div {
+    position: relative;
+    top: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    perspective: 100px;
+    transform: translate(100px, 50px);
+    /* transform: scale(1.5, 1.5); */
+    /* transform: skew(30deg); */
+    border: 1px solid black;
+}
+
+.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+    animation-name: example, size;
+    transform: rotateX(45deg);
+    /* animation-timing-function: ease-out; */
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-duration: 5s;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: yellow;
+    }
+    70% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+@keyframes size {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 100px;
+    }
+}
