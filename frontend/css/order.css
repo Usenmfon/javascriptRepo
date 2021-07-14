@@ -6,13 +6,13 @@ body {
 
 .header {
     margin: 0;
-    border: 1px solid none;
+    border: none;
     height: 50px;
     position: fixed;
     top: 0;
     z-index: 2;
     width: 100%;
-    background-color: green;
+    background-color: #284b63;
 }
 
 .main1 {
@@ -20,24 +20,24 @@ body {
     height: 500px;
     width: 98%;
     justify-content: center;
-    border: 1px solid #000000;
-    background-color: blue;
+    border: none;
+    background-color: #468468;
 }
 
 .first-column {
     margin: 20px 0 20px 20px;
-    border: 1px solid black;
+    border: none;
     float: left;
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
 }
 
 .n-column {
-    border: 1px solid black;
+    border: none;
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
 }
 
 #n-left {
@@ -55,14 +55,14 @@ body {
 
 .last-column {
     margin: 20px 20px 20px 20px;
-    border: 1px solid black;
+    border: none;
     position: relative;
     right: 20px;
     z-index: 1;
     float: right;
     height: 400px;
     width: 400px;
-    background-color: black;
+    background-color: white;
 }
 
 .main2 {
@@ -72,16 +72,17 @@ body {
     position: relative;
     top: 500px;
     justify-content: center;
-    border: 1px solid #000000;
-    background-color: blue;
+    border: none;
+    background-color: #468468;
 }
 
 .footer {
     margin: 0;
-    border: 1px solid #000000;
+    border: none;
     height: 50px;
     position: relative;
     top: 500px;
     width: 100%;
-    background-color: green;
+    background-color: #284b63;
+    ;
 }
