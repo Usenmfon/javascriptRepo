@@ -14,4 +14,6 @@ const replaceImages = function() {
             para.remove();
         }
     }
+
+    window.addEventListener("click", () => console.log("You clicked"));
 }

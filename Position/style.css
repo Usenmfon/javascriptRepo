@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(130, 130, 243);
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 10px 30px auto 20%; */
+    /* grid-template-rows: repeat(3, 20px); */
+    /* grid-template-areas: "A A A A B B B E C"; */
+    /* column-gap: 10px;
+    row-gap: 20px; */
+    justify-content: space-around;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    /* padding: 20px; */
+    background: rgb(248, 248, 190);
+}
