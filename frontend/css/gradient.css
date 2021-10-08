@@ -1,6 +1,5 @@
-/* div {
+div {
     float: left;
-    
     width: 300px;
     height: 100px;
     margin: 4px;
@@ -20,15 +19,16 @@ div.second {
     width: 200px;
     color: #fff;
     background: -webkit-radial-gradient(circle, yellow 5%, blue 60%);
-} */
+}
 
-div.first {
+
+/* div.first {
     height: 500px;
     width: 500px;
     border: 1px solid #000;
     background: url("nubelson-fernandes--Xqckh_XVU4-unsplash.jpg") no-repeat 50% 50%;
     background-size: contain;
-}
+} */
 
 .second {
     border: 2px dotted black;

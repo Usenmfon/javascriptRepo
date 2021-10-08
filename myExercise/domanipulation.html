@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM</title>
+</head>
+
+<body>
+    <div id="root">
+        <p id="p1">Hello</p>
+    </div>
+
+    <script>
+        let root = document.getElementById('root')
+        let p = document.createElement('p')
+        let node = document.createTextNode('Some new text')
+        p.appendChild(node)
+        root.appendChild(p)
+        var p1 = document.getElementById('p1')
+        p1.parentNode.removeChild(p1)
+    </script>
+</body>
+
+</html>
