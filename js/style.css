@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>div {
+    border: .4rem solid burlywood;
+    width: 20rem;
+    height: 20em
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+}
+
+button {
+    width: 10rem;
+    height: 5rem;
+    font-size: 4rem;
+}

@@ -1,0 +1,30 @@
+=====QUIZ APP=====
+
+=====REQUIREMENTS FOR THE UI======
+
+1. The question bar
+2. The quiz options list
+3. The next and previous button
+4. The submit button
+5. The score board
+
+
+=====REQUIREMENTS FOR FUNCTIONALITY(JS)=====
+
+1. A store for all the questions and options
+2. We need to have the correct options
+3. Get all questions & options from db
+4. The user should be able to choose the options
+5. The user should be able to use the previous and next buttons
+6. The user should be able to submit and see score
+
+
+====HOW THE APP IS TO FUNCTION====
+
+1. On initial page, the user should see:
+	a. the first questions
+	b. the options
+	c. the submit button
+2. On click of the submit button, the user should be able to see the next quiz questions and options
+3. On click of the last question, the user should be able to see the score board.
+
