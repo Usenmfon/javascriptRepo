@@ -1,3 +1,4 @@
+//These is where all the questions are being stored
 const quizData = [{
         question: 'How old is Florin',
         a: '10',
@@ -39,6 +40,8 @@ const quizData = [{
         correct: 'b'
     }
 ];
+
+
 const quiz = document.getElementById("quiz");
 const answerEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById('question');
@@ -63,8 +66,6 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b;
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
-
-
 }
 
 function getSelected() {
